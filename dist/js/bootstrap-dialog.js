@@ -778,7 +778,7 @@
         },
         createHeaderContent: function () {
             var $container = $('<div></div>');
-            $container.addClass(this.getNamespace('header'));
+            $container.addClass(this.getNamespace('header') + " col"); 
 
             // title
             $container.append(this.createTitleContent());
